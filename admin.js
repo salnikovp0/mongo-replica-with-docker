@@ -11,8 +11,8 @@ db.getSiblingDB("admin").auth("konimbesin", "konimbesinpass" )
 
 db.getSiblingDB("admin").createUser(
   {
-    "user" : "konimbesin",
-    "pwd" : "konimbesinpass",
+    "user" : "replicaAdmin",
+    "pwd" : "replicaAdminPass",
     roles: [ { "role" : "clusterAdmin", "db" : "admin" } ]
   }
 )
