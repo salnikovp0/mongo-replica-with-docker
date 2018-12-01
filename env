@@ -2,4 +2,4 @@ MONGO_USER_ADMIN=konimbesin
 MONGO_PASS_ADMIN=konimbesinpass
 
 MONGO_REPLICA_ADMIN=replicaAdmin
-MONGO_PASS_REPLICA=replicaAdminPass
+MONGO_PASS_REPLICA=replicaAdminPassword2017
