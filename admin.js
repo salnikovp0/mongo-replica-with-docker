@@ -3,7 +3,7 @@ admin.createUser(
   {
     user: "konimbesin",
     pwd: "konimbesinpass",
-    roles: [ { role: "dbOwner", db: "admin" } ]
+    roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
   }
 )
 
