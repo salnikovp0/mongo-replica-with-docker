@@ -43,7 +43,6 @@ function copyFilesToContainer {
   docker cp ./replica.js $1:/data/admin/
   docker cp ./mongo-keyfile $1:/data/keyfile/
   docker cp ./grantRole.js $1:/data/admin
-  docker cp ./movies.js $1:/data/admin
 }
 
 # @params container volume
